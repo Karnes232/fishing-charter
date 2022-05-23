@@ -1,0 +1,60 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.navLinks {
+  @apply hidden text-gray-500 h-6 md:inline-flex cursor-pointer hover:scale-105 transition-all duration-150 ease-out
+}
+
+.footerIcons {
+  @apply text-white h-7 w-7 cursor-pointer
+}
+
+.footerSitemap {
+  @apply text-white cursor-pointer my-0.5
+}
+
+.compositionPhotos {
+  @apply w-[40%] shadow-[0px_1.5rem_4rem_rgba(0,0,0,0.4)] rounded-md absolute z-10
+}
+
+
+.sc-bdVaJa {
+  background-position-y:33% !important;
+}
+
+@media only screen and (min-width: 640px) {
+  .sc-bdVaJa {
+    background-position-y:50% !important;
+  }
+  .gnZAeQ {
+    min-height: 21rem !important;
+  }
+}
+
+@media only screen and (min-width: 810px) {
+}
+
+@media only screen and (min-width: 1024px) {
+  .sc-bdVaJa {
+    background-position-y:38% !important;
+  }
+  .gnZAeQ {
+    min-height: 26rem !important;
+  }
+}
+
+@media only screen and (min-width: 1280px) {
+  .sc-bdVaJa {
+    background-position-y:71% !important;
+  }
+  .gnZAeQ {
+    min-height: 29rem !important;
+  }
+}
+
+@media only screen and (min-width: 1536px) {
+  .gnZAeQ {
+    min-height: 40rem !important;
+  }
+}
